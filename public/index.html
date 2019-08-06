@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+   
+     
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <meta name="google-signin-client_id" content="654777836582-28mvnk0qvk3m7at3kbljb80h74evvvk1.apps.googleusercontent.com">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    
+      
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    
+    <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $('.sidenav').sidenav();
+        $('.slider').height(580);
+        $('.slider').height();
+        $('.parallax').parallax();
+        $('.carousel').carousel({
+        // dist: 0,
+        // padding: 0,
+        fullWidth: true,
+        indicators: true,
+        duration: 100,
+      });
+    
+      $('.datepicker').datepicker({
+        disableWeekends: true,
+        yearRange: 1
+      });
+autoplay()   
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+}
+$('input:checkbox').click(function() {
+        $('input:checkbox').not(this).prop('checked', false);
+    });
+    });
+    </script>
+  </body>
+</html>

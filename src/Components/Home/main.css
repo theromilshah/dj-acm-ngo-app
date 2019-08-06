@@ -1,0 +1,57 @@
+#parallax1,#parallax2{
+    height:650px;
+}
+ #parallax1 h1{
+    margin:0;
+    padding:0;
+    color:#fff;
+    /* padding-top:10vw; */
+    margin-left:33vw;
+    font-size:8vw;
+    font-weight: 800;
+    clear:both;
+ }
+ #parallax2 h1{
+    margin:0;
+    padding:0;
+    color:#fff;
+    /* padding-top:10vw; */
+    margin-left:33vw;
+    font-size:8vw;
+    font-weight: 1000;
+    clear:both;
+ }
+ .quote{
+    background-image: url('img/Beautiful-Water-Line.jpg');  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-align: center;
+ }
+ .quote h4{
+     padding:0;
+     margin: 0;
+ }
+ #parallax3{
+    background:#cecfff;
+    height:650px;
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+ }
+ #parallax3 h1{
+    margin:0;
+    padding:0;
+    color:#fff;
+    /* padding-top:10vw; */
+    margin-left:33vw;
+    font-size:8vw;
+    font-weight: 800;
+    clear:both;
+ }
